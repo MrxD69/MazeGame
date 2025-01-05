@@ -2,8 +2,8 @@ const mazeElement = document.getElementById("maze");
 const generateButton = document.getElementById("generate");
 const solveButton = document.getElementById("solve");
 
-const mazeWidth = 21; // Must be odd
-const mazeHeight = 11; // Must be odd
+const mazeWidth = 11; // Must be odd
+const mazeHeight = 21; // Must be odd
 let maze = [];
 let playerPosition = { row: 0, col: 0 }; // Player's position
 
